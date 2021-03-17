@@ -11,6 +11,14 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import "../css/style.css"
+import "../css/bootstrap.min.css"
+import "../css/all.min.css"
+import "../css/animate.min.css"
+// import "../css/owl.carousel.min.css"
+// import "../css/cubeportfolio.min.css"
+// import "../css/jquery.fancybox.min.css"
+// import "../css/revolution/settings.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
