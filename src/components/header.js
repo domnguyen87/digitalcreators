@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => (
 
@@ -9,7 +10,9 @@ const Header = ({ siteTitle }) => (
      <nav className="navbar navbar-expand-lg center-brand static-nav">
         <div className="container">
            <a className="navbar-brand" href="index.html">
-              <img src="images/logo.png" alt="logo" />
+              <StaticImage
+                 src="../images/logo.png" alt="logo" 
+              />
            </a>
            <button className="navbar-toggler navbar-toggler-right collapsed d-none" type="button" data-toggle="collapse" data-target="#xenav">
               <span> </span>

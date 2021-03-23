@@ -10,6 +10,15 @@ export const onRenderBody = (
       type="text/javascript"
       async
     />,
+    <link key="1" rel="stylesheet" href="css/bootstrap.min.css" />,
+    <link key="2" rel="stylesheet" href="css/all.min.css" />,
+    <link key="3" rel="stylesheet" href="css/animate.min.css" />,
+    <link key="4" rel="stylesheet" href="css/owl.carousel.min.css" />,
+    <link key="5" rel="stylesheet" href="css/cubeportfolio.min.css" />,
+    <link key="6" rel="stylesheet" href="css/jquery.fancybox.min.css"/>,
+    <link key="7" rel="stylesheet" href="css/revolution/settings.css" />,
+    <link key="8" rel="stylesheet" href="css/style.css" />,
+
   ])
   setPostBodyComponents([
     <script key="alertify1" src="js/jquery-3.1.1.min.js"/>,
@@ -36,7 +45,7 @@ export const onRenderBody = (
     <script key="alertify22" src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>,
     <script key="alertify23" src="js/revolution/extensions/revolution.extension.video.min.js"></script>,
     <script key="alertify24" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6YJu2gWq_4ABpOPGLy0c4JKg82U7a_JM"></script>,
-    <script key="alertify25"src="js/functions.js"></script>,
+    <script key="alertify25"src="/js/functions.js"></script>,
     <script
       key="1"
       src="../dom/"
